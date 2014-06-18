@@ -1,0 +1,7 @@
+base     dokuwiki
+author   NDCC, Infrabel
+email    dotnet@infrabel.be
+date     2014-03-15
+name     GNaP
+desc     GNaP theme
+url      https://github.com/infrabel/GNaP.Wiki
