@@ -1,0 +1,197 @@
+.printonly { display: none; }
+
+.breadcrumb li .curid {
+	display: inline-block;
+	padding: 0 4px;
+	color: #4c8fbd;
+}
+
+.navbar {
+	border: 1px solid #e7e7e7;
+}
+
+.dropdown-menu li ,
+.breadcrumb li {
+	margin-left: 0em;
+}
+
+body {
+	background-color: #fff !important;
+}
+
+.docInfo {
+	border-top: 1px solid #ccc;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+table {
+	border: 0px solid #ccc;
+}
+
+.sidebar {
+	width: 210px;
+}
+
+.main-content {
+	margin-left: 210px;
+}
+
+.breadcrumbs.breadcrumbs-fixed, .breadcrumbs.fixed {
+	left: 210px;
+}
+
+.sidebar:before {
+	width: 210px;
+}
+
+html {
+	font-size: 100%;
+}
+
+#IE8 .dokuwiki h3.toggle,
+#IE7 .dokuwiki h3.toggle {
+	padding: 2.5em 1em 0.5em 1em;
+}
+
+li.light-blue,
+li.grey {
+	margin: 0;
+}
+
+.curid {
+	padding: 0;
+}
+
+.page {
+	padding-bottom: 5px;
+}
+
+.bureaucracy__plugin fieldset {
+	border: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+.bureaucracy__plugin legend {
+	display: none;
+	border-bottom: 0px;
+}
+
+div.dokuwiki form.bureaucracy__plugin label span {
+	padding-top: 3px;
+	display: block;
+	text-align: left;
+	float: none;
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+div.dokuwiki form.bureaucracy__plugin input.button {
+	margin-left: 10px;
+}
+
+div.dokuwiki form.bureaucracy__plugin label input {
+	float: none !important;
+}
+
+.bureaucracy__plugin  sup {
+	display: none;
+}
+
+div.dokuwiki form.bureaucracy__plugin fieldset {
+	width: 100%;
+}
+
+div.dokuwiki form.bureaucracy__plugin label span {
+	width: auto;
+}
+
+div.dokuwiki form.bureaucracy__plugin label .edit {
+	width: 40%;
+	margin-right: 5px;
+}
+
+div.dokuwiki form.bureaucracy__plugin input.button {
+	width: 40%;
+}
+
+.ace-nav>li.star>a {
+	background-color: #fff;
+	padding: 0 0px;
+}
+
+.ace-nav>li {
+	margin: 0px;
+}
+
+#config__manager fieldset {
+	background-color: #fff;
+}
+
+.dokuwiki #config__manager div.table {
+	overflow-x: visible;
+}
+
+#config__manager fieldset {
+	width: 950px;
+	border: 0px solid #fff;
+}
+
+#config__manager td.label label {
+	white-space: normal;
+	color: #393939;
+}
+
+#config__manager td.label {
+	width: 480px;
+	background-color: #fff !important;
+	height: auto;
+}
+
+#config__manager legend {
+	border-bottom: 0px solid #fff;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#config__manager fieldset td.value {
+	width: 415px;
+}
+
+#config__manager td input.edit,
+#config__manager td select.edit {
+	width: 390px;
+}
+
+#config__manager th, td {
+	border: 0px solid #fff;
+}
+
+#config__manager tr .input {
+	width: 390px;
+}
+
+#dw__register fieldset,
+#subscribe__form fieldset,
+#dw__login fieldset {
+	margin: 0px;
+	padding-left: 0px;
+}
+
+#dw__register fieldset,
+#subscribe__form fieldset,
+#dw__login fieldset {
+	border: 0px solid #fff;
+}
+
+#subscribe__form legend {
+	border-bottom: 0px solid #fff;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+#dw__login legend {
+	display: none;
+}
