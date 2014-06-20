@@ -3,7 +3,7 @@ GNaP.Tooling.Wiki
 
 ## Copyright
 
-Copyright � 2014 Infrabel and contributors.
+Copyright © 2014 Infrabel and contributors.
 
 ## License
 
