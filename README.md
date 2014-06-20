@@ -1,4 +1,4 @@
-GNaP.Wiki
+GNaP.Tooling.Wiki
 =========
 
 ## Copyright
