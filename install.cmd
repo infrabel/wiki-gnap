@@ -14,9 +14,10 @@ ECHO  [7] GNaP.Tooling.Wiki example structure
 ECHO  [8] GNaP.Tooling.Wiki example content
 ECHO  [X] Exit
 ECHO.
-SET INSTALLOP=
-SET /P INSTALLOP="Select an option: "
+SET INSTALLOP=X
+SET /P INSTALLOP="Select an option [X]: "
 
+IF "%INSTALLOP%"=="1" ( GOTO InstallCPlusPlus )
 IF "%INSTALLOP%"=="2" ( GOTO InstallRewrite )
 
 IF "%INSTALLOP%"=="4" ( GOTO InstallPHP )
@@ -40,6 +41,24 @@ IF NOT "%INSTALLOP%"=="8" (
 ))))))))
 
 REM ---------------------------------------------------------------------------
+:InstallCPlusPlus
+SET CPP=x86
+SET /P CPP="Install version (x64 or x86) [x86]: "
+
+ECHO.
+ECHO Installing Visual C++ Redistributable for Visual Studio 2012 Update 4 %CPP%
+
+IF "%CPP%"=="x64" ( vcredist\vcredist_x64.exe )
+IF "%CPP%"=="x86" ( vcredist\vcredist_x86.exe )
+
+ECHO Installed Visual C++ Redistributable for Visual Studio 2012 Update 4 %CPP%
+PAUSE
+
+ECHO.
+GOTO AvailableOptions
+REM ---------------------------------------------------------------------------
+
+REM ---------------------------------------------------------------------------
 :InstallRewrite
 SET REWRITE=x64
 SET /P REWRITE="Install version (x64 or x86) [x64]: "
@@ -47,10 +66,7 @@ SET /P REWRITE="Install version (x64 or x86) [x64]: "
 ECHO.
 ECHO Installing IIS URL Rewrite Module 2.0 %REWRITE%
 
-IF "%REWRITE%"=="x64" ( 
-echo test
-rewrite\rewrite_2.0_rtw_x64.msi 
-)
+IF "%REWRITE%"=="x64" ( rewrite\rewrite_2.0_rtw_x64.msi )
 IF "%REWRITE%"=="x86" ( rewrite\rewrite_2.0_rtw_x86.msi )
 
 ECHO Installed IIS URL Rewrite Module 2.0 %REWRITE%
