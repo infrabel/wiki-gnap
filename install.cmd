@@ -17,6 +17,7 @@ ECHO.
 SET INSTALLOP=
 SET /P INSTALLOP="Select an option: "
 
+IF "%INSTALLOP%"=="4" ( GOTO InstallPHP )
 IF "%INSTALLOP%"=="5" ( GOTO InstallDokuWiki )
 
 IF "%INSTALLOP%"=="X" ( GOTO TheEnd )
@@ -37,9 +38,29 @@ IF NOT "%INSTALLOP%"=="8" (
 ))))))))
 
 REM ---------------------------------------------------------------------------
+:InstallPHP
+SET PHP=
+SET /P PHP="Install path [C:\PHP]: "
+IF "%PHP%"=="" ( SET PHP=C:\PHP)
+
+ECHO.
+ECHO Installing PHP to %PHP%
+
+7za.exe x php\php-5.5.10-nts-Win32-VC11-x86.zip -o%PHP%
+
+ECHO.
+ECHO Installed PHP to %PHP%
+PAUSE
+
+ECHO.
+GOTO AvailableOptions
+REM ---------------------------------------------------------------------------
+
+REM ---------------------------------------------------------------------------
 :InstallDokuWiki
+SET DOKUWIKI=
 SET /P DOKUWIKI="Install path [C:\Wiki]: "
-IF "%DOKUWIKI%"=="" ( SET DOKUWIKI=C:\Wiki)
+IF "%DOKUWIKI%"=="" ( SET DOKUWIKI=C:\Wiki )
 
 ECHO.
 ECHO Installing DokuWiki to %DOKUWIKI%
@@ -59,4 +80,3 @@ GOTO AvailableOptions
 REM ---------------------------------------------------------------------------
 
 :TheEnd
-SET DOKUWIKI=
