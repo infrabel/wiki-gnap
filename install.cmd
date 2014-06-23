@@ -22,6 +22,7 @@ IF "%INSTALLOP%"=="2" ( GOTO InstallRewrite )
 
 IF "%INSTALLOP%"=="4" ( GOTO InstallPHP )
 IF "%INSTALLOP%"=="5" ( GOTO InstallDokuWiki )
+IF "%INSTALLOP%"=="6" ( GOTO InstallTheme )
 
 IF "%INSTALLOP%"=="X" ( GOTO TheEnd )
 IF "%INSTALLOP%"=="x" ( GOTO TheEnd )
@@ -110,6 +111,24 @@ MOVE "%DOKUWIKI%\dokuwiki\*" "%DOKUWIKI%\"
 
 ECHO.
 ECHO Installed DokuWiki to %DOKUWIKI%
+PAUSE
+
+ECHO.
+GOTO AvailableOptions
+REM ---------------------------------------------------------------------------
+
+REM ---------------------------------------------------------------------------
+:InstallTheme
+SET THEME=C:\Wiki
+SET /P THEME="Install path [C:\Wiki]: "
+
+ECHO.
+ECHO Installing base GNaP.Tooling.Wiki theme to %THEME%
+
+XCOPY dokuwiki\modifications %THEME% /E
+
+ECHO.
+ECHO Installed base GNaP.Tooling.Wiki theme to %THEME%
 PAUSE
 
 ECHO.
