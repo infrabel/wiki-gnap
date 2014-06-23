@@ -17,6 +17,8 @@ ECHO.
 SET INSTALLOP=
 SET /P INSTALLOP="Select an option: "
 
+IF "%INSTALLOP%"=="2" ( GOTO InstallRewrite )
+
 IF "%INSTALLOP%"=="4" ( GOTO InstallPHP )
 IF "%INSTALLOP%"=="5" ( GOTO InstallDokuWiki )
 
@@ -38,10 +40,30 @@ IF NOT "%INSTALLOP%"=="8" (
 ))))))))
 
 REM ---------------------------------------------------------------------------
+:InstallRewrite
+SET REWRITE=x64
+SET /P REWRITE="Install version (x64 or x86) [x64]: "
+
+ECHO.
+ECHO Installing IIS URL Rewrite Module 2.0 %REWRITE%
+
+IF "%REWRITE%"=="x64" ( 
+echo test
+rewrite\rewrite_2.0_rtw_x64.msi 
+)
+IF "%REWRITE%"=="x86" ( rewrite\rewrite_2.0_rtw_x86.msi )
+
+ECHO Installed IIS URL Rewrite Module 2.0 %REWRITE%
+PAUSE
+
+ECHO.
+GOTO AvailableOptions
+REM ---------------------------------------------------------------------------
+
+REM ---------------------------------------------------------------------------
 :InstallPHP
-SET PHP=
+SET PHP=C:\PHP
 SET /P PHP="Install path [C:\PHP]: "
-IF "%PHP%"=="" ( SET PHP=C:\PHP)
 
 ECHO.
 ECHO Installing PHP to %PHP%
@@ -58,9 +80,8 @@ REM ---------------------------------------------------------------------------
 
 REM ---------------------------------------------------------------------------
 :InstallDokuWiki
-SET DOKUWIKI=
+SET DOKUWIKI=C:\Wiki
 SET /P DOKUWIKI="Install path [C:\Wiki]: "
-IF "%DOKUWIKI%"=="" ( SET DOKUWIKI=C:\Wiki )
 
 ECHO.
 ECHO Installing DokuWiki to %DOKUWIKI%
