@@ -112,11 +112,13 @@ global $INFO;
 								
 								<li><a href="?do=export_pdf" class="action recent" accesskey="r" rel="nofollow" title="Export as PDF"><i class="icon-file-text icon-fixed-width"></i>Export as PDF</a></li>
 								
+								<?php if (!empty($_SERVER['REMOTE_USER'])) { ?>
 								<li class="divider"></li>
 								
 								<?php _tpl_toolsevent('pagetools', array(
 									'subscribe' => tpl_action('subscribe', 1, 'li', 1, 'icon-envelope icon-fixed-width|')
 								)); ?>
+								<?php } ?>
 							</ul>
 						</li>
 					
