@@ -13,6 +13,8 @@ PHP is licensed under [PHP License v3.01](http://www.php.net/license/3_01.txt "R
 
 IIS URL Rewrite 2.0 is licensed under Microsoft Software Supplemental License Terms. Refer to [rewrite/rewrite_license.rtf](https://github.com/infrabel/GNaP.Tooling.Wiki/blob/master/rewrite/rewrite_license.rtf) for more information.
 
+7-zip is licensed under [GNU LGPL](http://choosealicense.com/licenses/lgpl-3.0/ "Read more about the LGPL Licencse"). Refer to [7z/license.txt](https://github.com/infrabel/GNaP.Tooling.Wiki/blob/master/7z/license.txt) for more information.
+
 GNaP.Web.Themes is licensed under [BSD (3-Clause)](http://choosealicense.com/licenses/bsd-3-clause/ "Read more about the BSD (3-Clause) License"). Refer to [LICENSE](https://github.com/infrabel/GNaP.Web.Themes/blob/master/LICENSE) for more information.
 
 The GNaP theme uses ```Ace - Responsive Admin Template``` as it's base theme, which is licensed under [Extended License](https://github.com/infrabel/GNaP.Web.Themes/blob/master/custom/ace/LICENSE-Ace), our license covers redistribution and usage by you. However, if you would like to show your support to the original author, you can [buy a Single application license here](https://wrapbootstrap.com/theme/ace-responsive-admin-template-WB0B30DGR?ref=cc), it's quite cheap after all.

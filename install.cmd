@@ -85,7 +85,7 @@ SET /P PHP="Install path [C:\PHP]: "
 ECHO.
 ECHO Installing PHP to %PHP%
 
-7za.exe x php\php-5.5.10-nts-Win32-VC11-x86.zip -o%PHP%
+7z\7za.exe x php\php-5.5.10-nts-Win32-VC11-x86.zip -o%PHP%
 
 ECHO.
 ECHO Installed PHP to %PHP%
@@ -103,8 +103,8 @@ SET /P DOKUWIKI="Install path [C:\Wiki]: "
 ECHO.
 ECHO Installing DokuWiki to %DOKUWIKI%
 
-7za.exe e dokuwiki\base\dokuwiki-2014-05-05-ponder-stibbons.tgz -odokuwiki\base\
-7za.exe x dokuwiki\base\dokuwiki-2014-05-05-ponder-stibbons.tar -o%DOKUWIKI%
+7z\7za.exe e dokuwiki\base\dokuwiki-2014-05-05-ponder-stibbons.tgz -odokuwiki\base\
+7z\7za.exe x dokuwiki\base\dokuwiki-2014-05-05-ponder-stibbons.tar -o%DOKUWIKI%
 RM dokuwiki\base\dokuwiki-2014-05-05-ponder-stibbons.tar
 FOR /d %%a IN (%DOKUWIKI%\dokuwiki\*) DO MOVE "%%~a" "%DOKUWIKI%\"
 MOVE "%DOKUWIKI%\dokuwiki\*" "%DOKUWIKI%\"
