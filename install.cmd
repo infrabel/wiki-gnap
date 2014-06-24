@@ -6,7 +6,7 @@ ECHO ==========================================
 ECHO Installable components provided by this installer:
 ECHO  [1] Visual C++ Redistributable for Visual Studio 2012 Update 4
 ECHO  [2] IIS URL Rewrite Module 2.0
-ECHO  [3] FastCGI
+ECHO  [3] FastCGI (requires elevated permissions, and Windows Server)
 ECHO  [4] PHP 5.5
 ECHO  [5] DokuWiki
 ECHO  [6] Base GNaP.Tooling.Wiki theme
@@ -19,14 +19,13 @@ SET /P INSTALLOP="Select an option [X]: "
 
 IF "%INSTALLOP%"=="1" ( GOTO InstallCPlusPlus )
 IF "%INSTALLOP%"=="2" ( GOTO InstallRewrite )
-
+IF "%INSTALLOP%"=="3" ( GOTO InstallCGI )
 IF "%INSTALLOP%"=="4" ( GOTO InstallPHP )
 IF "%INSTALLOP%"=="5" ( GOTO InstallDokuWiki )
 IF "%INSTALLOP%"=="6" ( GOTO InstallTheme )
 IF "%INSTALLOP%"=="7" ( GOTO InstallStructure )
 
-IF "%INSTALLOP%"=="X" ( GOTO TheEnd )
-IF "%INSTALLOP%"=="x" ( GOTO TheEnd )
+IF /I "%INSTALLOP%"=="X" ( GOTO TheEnd )
 IF "%INSTALLOP%"=="" ( GOTO TheEnd )
 
 IF NOT "%INSTALLOP%"=="1" (
@@ -50,8 +49,8 @@ SET /P CPP="Install version (x64 or x86) [x86]: "
 ECHO.
 ECHO Installing Visual C++ Redistributable for Visual Studio 2012 Update 4 %CPP%
 
-IF "%CPP%"=="x64" ( vcredist\vcredist_x64.exe )
-IF "%CPP%"=="x86" ( vcredist\vcredist_x86.exe )
+IF /I "%CPP%"=="x64" ( vcredist\vcredist_x64.exe )
+IF /I "%CPP%"=="x86" ( vcredist\vcredist_x86.exe )
 
 ECHO Installed Visual C++ Redistributable for Visual Studio 2012 Update 4 %CPP%
 PAUSE
@@ -68,8 +67,8 @@ SET /P REWRITE="Install version (x64 or x86) [x64]: "
 ECHO.
 ECHO Installing IIS URL Rewrite Module 2.0 %REWRITE%
 
-IF "%REWRITE%"=="x64" ( rewrite\rewrite_2.0_rtw_x64.msi )
-IF "%REWRITE%"=="x86" ( rewrite\rewrite_2.0_rtw_x86.msi )
+IF /I "%REWRITE%"=="x64" ( rewrite\rewrite_2.0_rtw_x64.msi )
+IF /I "%REWRITE%"=="x86" ( rewrite\rewrite_2.0_rtw_x86.msi )
 
 ECHO Installed IIS URL Rewrite Module 2.0 %REWRITE%
 PAUSE
@@ -77,6 +76,27 @@ PAUSE
 ECHO.
 GOTO AvailableOptions
 REM ---------------------------------------------------------------------------
+
+REM ---------------------------------------------------------------------------
+:InstallCGI
+SET CGI=N
+SET /P CGI="Are you running on Windows Server under elevated permissions? (Y/N) [N]: "
+
+IF /I "%CGI%"=="Y" ( 
+	ECHO.
+	ECHO Installing FastCGI
+
+	@powershell -NoProfile -ExecutionPolicy unrestricted -Command "Import-Module ServerManager | Add-WindowsFeature -Name Web-CGI"
+	DISM /online /enable-feature /featurename:IIS-CGI
+
+	ECHO Installed FastCGI
+	PAUSE
+)
+
+ECHO.
+GOTO AvailableOptions
+REM ---------------------------------------------------------------------------
+
 
 REM ---------------------------------------------------------------------------
 :InstallPHP
