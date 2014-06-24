@@ -1,0 +1,5 @@
+====== Usage ======
+
+Items referencing technology **@@TECHNOLOGY@@**:
+
+{{namespace>@NS@:versions&nostart&exclude=@NS@:versions:example}}

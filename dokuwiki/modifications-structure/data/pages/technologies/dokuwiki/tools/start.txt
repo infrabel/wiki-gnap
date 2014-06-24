@@ -1,0 +1,14 @@
+====== Tools ======
+
+The following **DokuWiki** tools can be used to achieve your goal in an easier and quicker way:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Tool |
+<form>
+action template templates:general:versions-ns: technologies:dokuwiki:tools:@@TOOL@@
+hidden "TITLE" "=@@TOOL@@"
+textbox "Tool"
+submit "Add New Tool"
+</form>
+++++

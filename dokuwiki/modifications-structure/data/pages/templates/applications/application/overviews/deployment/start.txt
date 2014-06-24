@@ -1,0 +1,8 @@
+====== Deployment Overview ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides all technical details about the deployment of the application.,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for technical people who need to know or tweak the deployment configuration, who need to deploy a version of the application, or look for runtime data related to the application.,,,,//</color>
+----
+
+FIXME

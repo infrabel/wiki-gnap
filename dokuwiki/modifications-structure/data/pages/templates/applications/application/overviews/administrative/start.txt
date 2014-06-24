@@ -1,0 +1,31 @@
+====== Administrative Overview ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides administrative information, along with contact persons involved with the application.,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for everyone who wishes to find out more about the application.,,,,//</color>
+----
+
+===== General Information =====
+
+^ Application code | @@APPCODE@@ |
+^ Application name(s) | @@APPNAME@@ |
+^ Owner | [[refdata:user:example:start]] |
+^ CATS | FIXME |
+
+===== Team =====
+
+^ Role ^ Name(s) ^
+| PM | [[refdata:user:example:start]] |
+| PL | [[refdata:user:example:start]] |
+| FA | [[refdata:user:example:start]] |
+| DEV | [[refdata:user:example:start]] |
+| TPL | [[refdata:user:example:start]] |
+
+===== Team History =====
+
+^ Role ^ Name(s) ^
+| PM |  |
+| PL |  |
+| FA |  |
+| DEV |  |
+| TPL |  |

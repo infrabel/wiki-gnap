@@ -1,0 +1,27 @@
+====== Business Units ======
+
+Our company contains several business units:
+
+===== Telecom Business Unit =====
+
+{{backlinks>bu:telecom:start|bu}}
+
+++++ Add New Telecom Section |
+<form>
+action template templates:bu:section-telecom: bu:telecom:@@SECTION@@
+textbox  "Section"
+submit "Add New Telecom Section"
+</form>
+++++
+
+===== Traffic & Railway Business Unit =====
+
+{{backlinks>bu:traffic-railway:start|bu}}
+
+++++ Add New Traffic & Railway Section |
+<form>
+action template templates:bu:section-traffic-railway: bu:traffic-railway:@@SECTION@@
+textbox  "Section"
+submit "Add New Traffic & Railway Section"
+</form>
+++++

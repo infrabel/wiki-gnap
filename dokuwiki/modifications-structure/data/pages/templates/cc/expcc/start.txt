@@ -1,0 +1,3 @@
+====== @@CCName@@ ======
+
+**@@CCCode@@** is an [[cc:exploitation|Exploitation Competence Center]].

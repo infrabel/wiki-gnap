@@ -1,0 +1,13 @@
+  * REFDATA = Reference data
+  * REFDATAVALUE = Value
+  * FIRSTNAME = First name
+  * LASTNAME = Last name
+  * SHORTNAME = Short name
+  * FULLNAME = Full name
+  * EMAIL = Email address
+  * AppCode = Application Code
+  * AppName = Name
+  * CCCode = Abbreviation
+  * CCName = Full Name
+  * KANBANNUMBER = Card Number
+  * KANBANTITLE = Card Title

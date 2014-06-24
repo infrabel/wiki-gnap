@@ -1,0 +1,13 @@
+====== Applications ======
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Application |
+<form>
+action template templates:applications:application: applications:@@APPCODE@@
+labels templates:labels
+textbox "AppCode"
+textbox  "AppName"
+submit "Add New Application"
+</form>
+++++

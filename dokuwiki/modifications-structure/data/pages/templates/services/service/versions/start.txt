@@ -1,0 +1,13 @@
+====== Versions ======
+
+The following **@@SERVICE@@** versions are used within our company:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Version |
+<form>
+action template templates:services:service-version: @NS@:@@VERSION@@
+textbox "Version"
+submit "Add New Version"
+</form>
+++++

@@ -1,0 +1,42 @@
+====== Playground ======
+
+Test Filip
+
+<code csharp>
+  decimal idRegionStart = -1;//Region * in DB
+  IRegionEntity regionTmp = manager.GetRegionById(idRegionStart);
+  if (regionTmp.UploadDate.Value.AddDays(1) <= DateTime.Now)
+  {
+  }
+</code>
+
+<code java>
+  decimal idRegionStart = -1;//Region * in DB
+  IRegionEntity regionTmp = manager.GetRegionById(idRegionStart);
+  if (regionTmp.UploadDate.Value.AddDays(1) <= DateTime.Now)
+  {
+  }
+</code>
+
+----
+
+Testing 'folded'
+
+Inline:
+
+This is example ++text | with some of it only shown when you unfold it++. And after that
+the text just continues to flow in the same paragraph.
+
+Block:
+
+
+++++ Title |
+
+| This table | is only shown | when you unfold the block |
+
+{{page>some other wiki page&inline}}
+
+++++
+
+
+{{:playground:motocrijns.jpg?direct&200|}}

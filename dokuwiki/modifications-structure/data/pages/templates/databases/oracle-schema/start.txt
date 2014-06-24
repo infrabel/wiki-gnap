@@ -1,0 +1,9 @@
+====== @@SCHEMA@@ ======
+
+^ Connection String\\ Without Password | FIXME |
+
+===== References =====
+
+Items referencing schema **@@SCHEMA@@**:
+
+{{backlinks>.}}

@@ -1,0 +1,17 @@
+====== Resources ======
+
+The following resources are interesting to stay up-to-date with **DokuWiki**:
+
+  * [[https://www.dokuwiki.org/faq|DokuWiki - Frequently Asked Questions]]
+  * [[https://www.dokuwiki.org/manual|DokuWiki - The Manual]]
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Resource |
+<form>
+action template templates:general:title-ns: technologies:dokuwiki:resources:@@RESOURCE@@
+hidden "TITLE" "=@@RESOURCE@@"
+textbox "Resource"
+submit "Add New Resource"
+</form>
+++++

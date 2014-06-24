@@ -1,0 +1,13 @@
+====== Servers ======
+
+Overview of servers in use:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Server |
+<form>
+action template templates:servers:server: servers:@@SERVER@@
+textbox "Server"
+submit "Add New Server"
+</form>
+++++

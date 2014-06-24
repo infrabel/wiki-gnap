@@ -1,0 +1,8 @@
+====== Error Diagnosis ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides help and tools for error diagnosis, maintaining the health of the application etc...,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for anyone providing support.,,,,//</color>
+----
+
+FIXME

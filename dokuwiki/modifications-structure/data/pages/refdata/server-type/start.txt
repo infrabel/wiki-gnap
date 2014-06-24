@@ -1,0 +1,15 @@
+====== Server Type ======
+
+The following values are available as reference data for **Server Type**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Value |
+<form>
+action template templates:refdata:refdata-value: refdata:server-type:@@REFDATAVALUE@@
+labels templates:labels
+hidden "REFDATA" "=Server Type"
+textbox "REFDATAVALUE"
+submit "Add New Value"
+</form>
+++++

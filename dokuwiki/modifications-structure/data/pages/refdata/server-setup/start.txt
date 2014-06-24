@@ -1,0 +1,15 @@
+====== Server Setup ======
+
+The following values are available as reference data for **Server Setup**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Value |
+<form>
+action template templates:refdata:refdata-value: refdata:server-setup:@@REFDATAVALUE@@
+labels templates:labels
+hidden "REFDATA" "=Server Setup"
+textbox "REFDATAVALUE"
+submit "Add New Value"
+</form>
+++++

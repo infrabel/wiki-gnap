@@ -1,0 +1,13 @@
+====== SQL Server ======
+
+The following SQL Server instances are in use:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Instance |
+<form>
+action template templates:databases:sqlserver: databases:sqlserver:@@INSTANCE@@
+textbox "Instance"
+submit "Add New Instance"
+</form>
+++++

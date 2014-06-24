@@ -1,0 +1,4 @@
+====== Contact ======
+
+In case of any questions regarding **DokuWiki**, feel free to contact:
+  * [[mailboxes:example:start]]

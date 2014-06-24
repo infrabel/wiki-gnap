@@ -1,0 +1,15 @@
+====== Network ======
+
+The following values are available as reference data for **Network**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Value |
+<form>
+action template templates:refdata:refdata-value: refdata:network:@@REFDATAVALUE@@
+labels templates:labels
+hidden "REFDATA" "=Network"
+textbox "REFDATAVALUE"
+submit "Add New Value"
+</form>
+++++

@@ -1,0 +1,4 @@
+====== Example ======
+
+**Example** is a sample database technology and should be changed by any of the following values:
+{{indexmenu>.:..#1|tsort nsort skipns+/example/}}

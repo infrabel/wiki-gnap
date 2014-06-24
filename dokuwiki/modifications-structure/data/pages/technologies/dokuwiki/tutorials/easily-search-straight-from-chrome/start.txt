@@ -1,0 +1,19 @@
+====== Easily search straight from Chrome ======
+
+To easily search from Chrome, you can do the following:
+
+  * Type **info** in the address bar.
+
+{{:technologies:dokuwiki:tutorials:easily-search-straight-from-chrome:info.png?nolink|}}
+
+  * Press **TAB** 
+
+{{:technologies:dokuwiki:tutorials:easily-search-straight-from-chrome:tab.png?nolink|}}
+
+  * Search something
+
+{{:technologies:dokuwiki:tutorials:easily-search-straight-from-chrome:ndcc.png?nolink|}}
+
+  * View the results
+
+{{:technologies:dokuwiki:tutorials:easily-search-straight-from-chrome:search.png?nolink|}}

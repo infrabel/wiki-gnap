@@ -1,0 +1,22 @@
+====== @@INSTANCE@@ ======
+
+===== Information =====
+
+^ Server | [[servers:example:]] |
+^ Server Setup | [[refdata:server-setup:example:]] |
+^ DB Technology | [[technologies:example:]] [[technologies:example:versions:example]] |
+^ Linked Resources | FIXME |
+
+===== Databases =====
+
+The following databases are hosted on database instance **@@INSTANCE@@**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Database |
+<form>
+action template templates:databases:sqlserver-database: @NS@:@@DATABASE@@
+textbox "Database"
+submit "Add New Database"
+</form>
+++++

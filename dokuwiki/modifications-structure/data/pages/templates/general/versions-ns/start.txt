@@ -1,0 +1,10 @@
+====== @@TITLE@@ ======
+
+===== Information =====
+
+FIXME
+
+===== Versions & Usage =====
+
+  * [[@NS@:versions:start]]
+  * [[@NS@:usage]]

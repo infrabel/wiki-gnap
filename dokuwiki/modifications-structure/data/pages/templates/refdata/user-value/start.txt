@@ -1,0 +1,9 @@
+====== @@FIRSTNAME@@ @@LASTNAME@@ (@@USERNAME@@) ======
+
+^ Email | [[example@infrabel.be]] |
+^ Phone | FIXME |
+^ Mobile | FIXME |
+
+Items with value **@@USERNAME@@** as reference data for **User**:
+
+{{backlinks>.}}

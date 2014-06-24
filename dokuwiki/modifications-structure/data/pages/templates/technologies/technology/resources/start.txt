@@ -1,0 +1,14 @@
+====== Resources ======
+
+The following resources are interesting to stay up-to-date with **@@TECHNOLOGY@@**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Resource |
+<form>
+action template templates:general:title-ns: @NS@:@@RESOURCE@@
+hidden "TITLE" "=@@RESOURCE@@"
+textbox "Resource"
+submit "Add New Resource"
+</form>
+++++

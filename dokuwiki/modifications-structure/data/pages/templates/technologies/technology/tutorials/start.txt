@@ -1,0 +1,14 @@
+====== Tutorials ======
+
+Most tutorials seek to teach by example and supply only the necessary information to complete a certain task. The following tutorials regarding **@@TECHNOLOGY@@** can be used as part of your learning process:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Tutorial |
+<form>
+action template templates:general:title-ns: @NS@:@@TUTORIAL@@
+hidden "TITLE" "=@@TUTORIAL@@"
+textbox "Tutorial"
+submit "Add New Tutorial"
+</form>
+++++

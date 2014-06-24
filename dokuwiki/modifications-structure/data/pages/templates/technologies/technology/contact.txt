@@ -1,0 +1,4 @@
+====== Contact ======
+
+In case of any questions regarding **@@TECHNOLOGY@@**, feel free to contact:
+  * [[mailboxes:example:start]]

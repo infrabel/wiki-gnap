@@ -1,0 +1,28 @@
+====== @@INSTANCE@@ ======
+
+===== Information =====
+
+^ Server | [[servers:example:]] |
+^ Server Setup | [[refdata:server-setup:example:]] |
+^ DB Technology | [[technologies:example:]] [[technologies:example:versions:example]] |
+^ Linked Resources | FIXME |
+
+===== Utilities =====
+
+To find out more about **@@INSTANCE@@** you can run the following command:
+
+   tnsping @@INSTANCE@@
+
+===== Schemas =====
+
+The following schemas are hosted on **@@INSTANCE@@**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Schema |
+<form>
+action template templates:databases:oracle-schema: @NS@:@@SCHEMA@@
+textbox "Schema"
+submit "Add New Schema"
+</form>
+++++

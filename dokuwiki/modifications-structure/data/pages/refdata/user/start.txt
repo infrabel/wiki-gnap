@@ -1,0 +1,16 @@
+====== User ======
+
+The following values are available as reference data for **User**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New User |
+<form>
+action template templates:refdata:user-value: refdata:user:@@USERNAME@@
+labels templates:labels
+textbox "Username"
+textbox "FIRSTNAME"
+textbox "LASTNAME"
+submit "Add New User"
+</form>
+++++

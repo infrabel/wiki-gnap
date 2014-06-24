@@ -1,0 +1,14 @@
+====== Guidelines ======
+
+The following guidelines aim to streamline **DokuWiki** according to a set of best practices as used within our company:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Guideline |
+<form>
+action template templates:general:title-ns: technologies:dokuwiki:guidelines:@@GUIDELINE@@
+hidden "TITLE" "=@@GUIDELINE@@"
+textbox "Guideline"
+submit "Add New Guideline"
+</form>
+++++

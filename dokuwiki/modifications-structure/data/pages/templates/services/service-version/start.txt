@@ -1,0 +1,12 @@
+====== @@VERSION@@ ======
+
+===== Information =====
+
+^ Network | [[refdata:network:example:start]] |
+^ Location | FIXME |
+^ Status | [[refdata:status:example:start]] |
+^ Detailed Description | FIXME |
+
+===== References =====
+
+  * [[references|Items using this version]]

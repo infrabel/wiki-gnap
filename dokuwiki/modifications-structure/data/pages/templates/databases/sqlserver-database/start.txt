@@ -1,0 +1,9 @@
+====== @@DATABASE@@ ======
+
+^ Connection String\\ Without Password | FIXME |
+
+===== References =====
+
+Items referencing database **@@DATABASE@@**:
+
+{{backlinks>.}}

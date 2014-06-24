@@ -1,0 +1,8 @@
+====== Example ======
+
+**Example** is a sample value as reference data for **Network** and should be changed by any of the following values:
+{{indexmenu>.:..#1|tsort nsort skipns+/example/}}
+
+The following items need to be fixed from sample to real value:
+
+{{backlinks>.}}

@@ -23,6 +23,7 @@ IF "%INSTALLOP%"=="2" ( GOTO InstallRewrite )
 IF "%INSTALLOP%"=="4" ( GOTO InstallPHP )
 IF "%INSTALLOP%"=="5" ( GOTO InstallDokuWiki )
 IF "%INSTALLOP%"=="6" ( GOTO InstallTheme )
+IF "%INSTALLOP%"=="7" ( GOTO InstallStructure )
 
 IF "%INSTALLOP%"=="X" ( GOTO TheEnd )
 IF "%INSTALLOP%"=="x" ( GOTO TheEnd )
@@ -126,9 +127,29 @@ ECHO.
 ECHO Installing base GNaP.Tooling.Wiki theme to %THEME%
 
 XCOPY dokuwiki\modifications %THEME% /E
+DEL /S /Q %THEME%\data\cache\*
 
 ECHO.
 ECHO Installed base GNaP.Tooling.Wiki theme to %THEME%
+PAUSE
+
+ECHO.
+GOTO AvailableOptions
+REM ---------------------------------------------------------------------------
+
+REM ---------------------------------------------------------------------------
+:InstallStructure
+SET STRUCT=C:\Wiki
+SET /P STRUCT="Install path [C:\Wiki]: "
+
+ECHO.
+ECHO Installing GNaP.Tooling.Wiki example structure theme to %STRUCT%
+
+XCOPY dokuwiki\modifications-structure %STRUCT% /E
+DEL /S /Q %STRUCT%\data\cache\*
+
+ECHO.
+ECHO Installed GNaP.Tooling.Wiki example structure to %STRUCT%
 PAUSE
 
 ECHO.

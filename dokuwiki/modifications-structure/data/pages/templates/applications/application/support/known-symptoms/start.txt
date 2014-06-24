@@ -1,0 +1,8 @@
+====== Known Symptoms ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides a list of known symptoms, helping to resolve current issues.,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for anyone providing support.,,,,//</color>
+----
+
+FIXME

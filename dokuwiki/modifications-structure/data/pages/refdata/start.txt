@@ -1,0 +1,16 @@
+====== Reference Data ======
+
+Reference data is data that defines a set of permissible values to be used by other data fields. Reference data gains in value when it is widely re-used and widely referenced.
+
+Only concerned persons should update this section. More information on reference data can be found [[technologies:dokuwiki:guidelines:working-with-reference-data:start|here]]. You can always [[mailboxes:ndcc:start|contact us]] if you need any assistance on this subject.
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Reference Data |
+<form>
+action template templates:refdata:refdata: refdata:@@REFDATA@@
+labels templates:labels
+textbox "REFDATA"
+submit "Add New Reference Data"
+</form>
+++++

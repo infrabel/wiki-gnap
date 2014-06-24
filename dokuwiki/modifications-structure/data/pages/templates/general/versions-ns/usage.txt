@@ -1,0 +1,5 @@
+====== Usage ======
+
+The following items reference **@@TITLE@@**:
+
+{{namespace>@NS@:versions&nostart&exclude=@NS@:versions:example}}

@@ -1,0 +1,16 @@
+====== Mailboxes ======
+
+Overview of functional mailboxes and email addresses:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Mailbox |
+<form>
+action template templates:mailboxes:mailbox: mailboxes:@@SHORTNAME@@
+labels templates:labels
+textbox "SHORTNAME"
+textbox "FULLNAME"
+textbox "EMAIL"
+submit "Add New Mailbox"
+</form>
+++++

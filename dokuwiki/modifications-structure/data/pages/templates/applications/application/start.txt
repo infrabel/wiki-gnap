@@ -1,0 +1,106 @@
+====== @@APPCODE@@ - @@APPNAME@@ ======
+
+This is the main documentation page about the **@@APPCODE@@ - @@APPNAME@@** application. The information is split up in logical blocks:
+
+===== Overviews =====
+
+  * [[applications:@@APPCODE@@:overviews:administrative:|Administrative]]
+  * [[applications:@@APPCODE@@:overviews:descriptive:|Descriptive]]
+  * [[applications:@@APPCODE@@:overviews:conceptual:|Conceptual]]
+  * [[applications:@@APPCODE@@:overviews:functional:|Functional]]
+  * [[applications:@@APPCODE@@:overviews:technical:|Technical]]
+  * [[applications:@@APPCODE@@:overviews:deployment:|Deployment]]
+
+===== Support =====
+
+  * [[applications:@@APPCODE@@:support:error-diagnosis:|Error Diagnosis]]
+  * [[applications:@@APPCODE@@:support:known-symptoms:|Known Symptoms]]
+  * [[applications:@@APPCODE@@:support:monitoring:|Monitoring]]
+  * [[applications:@@APPCODE@@:support:utilities:|Utilities]]
+
+===== Dependencies =====
+
+=== Source control ===
+
+  * [[technologies:example:start]] [[technologies:example:versions:example]]
+
+=== IDE ===
+
+  * [[technologies:example:tools:example:start]] [[technologies:example:tools:example:versions:example]]
+
+=== Tools ===
+
+  * [[technologies:example:tools:example:start]] [[technologies:example:tools:example:versions:example]]
+
+=== Server side ===
+
+  * [[technologies:example:libraries:example:start]] [[technologies:example:libraries:example:versions:example]]
+
+=== Client side ===
+
+  * [[technologies:example:libraries:example:start]] [[technologies:example:libraries:example:versions:example]]
+
+===== Environments =====
+
+++++ BLD |
+
+^ URL | FIXME |
+^ Server | [[servers:example:start]] |
+^ Share | FIXME |
+^ Database | [[databases:example:example:example:start]] |
+
+++++
+
+++++ INT |
+
+^ URL | FIXME |
+^ Server | [[servers:example:start]] |
+^ Share | FIXME |
+^ Database | [[databases:example:example:example:start]] |
+
+++++
+
+++++ TST |
+
+^ URL | FIXME |
+^ Server | [[servers:example:start]] |
+^ Share | FIXME |
+^ Database | [[databases:example:example:example:start]] |
+
+++++
+
+++++ ACC |
+
+^ URL | FIXME |
+^ Server | [[servers:example:start]] |
+^ Share | FIXME |
+^ Database | [[databases:example:example:example:start]] |
+
+++++
+
+++++ EDU |
+
+^ URL | FIXME |
+^ Server | [[servers:example:start]] |
+^ Share | FIXME |
+^ Database | [[databases:example:example:example:start]] |
+
+++++
+
+++++ PRE |
+
+^ URL | FIXME |
+^ Server | [[servers:example:start]] |
+^ Share | FIXME |
+^ Database | [[databases:example:example:example:start]] |
+
+++++
+
+++++ PRD |
+
+^ URL | FIXME |
+^ Server | [[servers:example:start]] |
+^ Share | FIXME |
+^ Database | [[databases:example:example:example:start]] |
+
+++++

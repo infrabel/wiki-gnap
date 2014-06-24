@@ -1,0 +1,8 @@
+====== Conceptual Overview ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides the concepts used throughout the application.,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for everyone involved with the application, since it provides parts of the 'language' for communication at all levels: business, functional, technical.,,,,//</color>
+----
+
+FIXME

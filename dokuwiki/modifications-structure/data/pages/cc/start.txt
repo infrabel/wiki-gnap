@@ -1,0 +1,31 @@
+====== Competence Centers ======
+
+Our company contains several competence centers:
+
+===== Development Competence Centers =====
+
+{{backlinks>cc:development|cc}}
+
+++++ Add New Development Competence Center |
+<form>
+action template templates:cc:devcc: cc:@@CCCode@@
+labels templates:labels
+textbox  "CCCode"
+textbox  "CCName"
+submit "Add New Development Competence Center"
+</form>
+++++
+
+===== Exploitation Competence Centers =====
+
+{{backlinks>cc:exploitation|cc}}
+
+++++ Add New Exploitation Competence Center |
+<form>
+action template templates:cc:expcc: cc:@@CCCode@@
+labels templates:labels
+textbox  "CCCode"
+textbox  "CCName"
+submit "Add New Exploitation Competence Center"
+</form>
+++++

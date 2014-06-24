@@ -1,0 +1,14 @@
+====== Libraries ======
+
+The following **DokuWiki** libraries can be used to solve common problems:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Library |
+<form>
+action template templates:general:versions-ns: technologies:dokuwiki:libraries:@@LIBRARY@@
+hidden "TITLE" "=@@LIBRARY@@"
+textbox "Library"
+submit "Add New Library"
+</form>
+++++

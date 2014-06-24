@@ -1,0 +1,13 @@
+====== Services ======
+
+The following services are used within our company:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Service |
+<form>
+action template templates:services:service: services:@@Service@@
+textbox  "Service"
+submit "Add New Service"
+</form>
+++++ 

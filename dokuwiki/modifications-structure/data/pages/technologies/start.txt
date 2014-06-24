@@ -1,0 +1,14 @@
+====== Technologies ======
+
+The following technologies are used within our company:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Technology |
+<form>
+action template templates:technologies:technology: technologies:@@Technology@@
+textbox  "Technology"
+submit "Add New Technology"
+</form>
+
+++++

@@ -1,0 +1,9 @@
+====== Templates ======
+
+This section contains pre-formatted page templates used to make new pages following a similar design, pattern or style.
+
+Only concerned persons should update this section. More information on templates can be found [[technologies:dokuwiki:guidelines:working-with-templates:start|here]]. You can always [[mailboxes:ndcc:start|contact us]] if you need any assistance on this subject.
+
+===== Available templates =====
+
+{{indexmenu>.|tsort nsort}}

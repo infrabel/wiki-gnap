@@ -1,0 +1,13 @@
+====== Oracle ======
+
+The following Oracle instances are in use:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Instance |
+<form>
+action template templates:databases:oracle: databases:oracle:@@INSTANCE@@
+textbox "Instance"
+submit "Add New Instance"
+</form>
+++++

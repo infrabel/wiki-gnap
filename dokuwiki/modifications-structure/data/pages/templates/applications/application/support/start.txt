@@ -1,0 +1,6 @@
+===== Support =====
+
+  * [[applications:@@APPCODE@@:support:error-diagnosis:|Error Diagnosis]]
+  * [[applications:@@APPCODE@@:support:known-symptoms:|Known Symptoms]]
+  * [[applications:@@APPCODE@@:support:monitoring:|Monitoring]]
+  * [[applications:@@APPCODE@@:support:utilities:|Utilities]]

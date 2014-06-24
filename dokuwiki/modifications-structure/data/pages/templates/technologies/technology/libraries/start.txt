@@ -1,0 +1,14 @@
+====== Libraries ======
+
+The following **@@TECHNOLOGY@@** libraries can be used to solve common problems:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Library |
+<form>
+action template templates:general:versions-ns: @NS@:@@LIBRARY@@
+hidden "TITLE" "=@@LIBRARY@@"
+textbox "Library"
+submit "Add New Library"
+</form>
+++++

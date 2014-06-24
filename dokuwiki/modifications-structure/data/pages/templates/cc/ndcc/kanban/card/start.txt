@@ -1,0 +1,3 @@
+====== #@@KANBANNUMBER@@ - @@KANBANTITLE@@ ======
+
+This is the main documentation page about the @@KANBANNUMBER@@ - @@KANBANTITLE@@ card.

@@ -1,0 +1,23 @@
+====== @@SERVICE@@ ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides general information about the service.,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for everyone who wishes to consume the service.,,,,//</color>
+----
+
+===== Information =====
+
+^ Service Name | @@SERVICE@@ |
+^ Description | FIXME |
+^ Technology | [[technologies:example:start]] |
+^ Owner | [[applications:example:start]] |
+^ Supported Versions | [[@NS@:versions:example]] and higher |
+
+===== Versions =====
+
+{{indexmenu>versions#1|tsort nsort skipfile+/example/}}
+
+===== Manage =====
+
+  * [[@NS@:versions:start]]
+  * [[@NS@:usage]]

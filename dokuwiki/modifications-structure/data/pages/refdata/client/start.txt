@@ -1,0 +1,15 @@
+====== Client ======
+
+The following values are available as reference data for **Client**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Value |
+<form>
+action template templates:refdata:refdata-value: refdata:client:@@REFDATAVALUE@@
+labels templates:labels
+hidden "REFDATA" "=Client"
+textbox "REFDATAVALUE"
+submit "Add New Value"
+</form>
+++++

@@ -1,0 +1,15 @@
+====== Environment ======
+
+The following values are available as reference data for **Environment**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Value |
+<form>
+action template templates:refdata:refdata-value: refdata:environment:@@REFDATAVALUE@@
+labels templates:labels
+hidden "REFDATA" "=Environment"
+textbox "REFDATAVALUE"
+submit "Add New Value"
+</form>
+++++

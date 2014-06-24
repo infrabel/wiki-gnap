@@ -1,0 +1,8 @@
+====== Descriptive Overview ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides the general goal of the application.,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for everyone involved with the application, to get a general idea of what the application is all about.,,,,//</color>
+----
+
+FIXME

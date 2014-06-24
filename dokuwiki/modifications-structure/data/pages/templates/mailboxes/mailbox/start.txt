@@ -1,0 +1,28 @@
+====== @@SHORTNAME@@ - @@EMAIL@@ ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides general information about the functional mailbox.,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for everyone who wishes to find out more about the functional mailbox.,,,,//</color>
+----
+
+===== Information =====
+
+This mailbox can be contacted for ... FIXME
+
+^ Short name | @@SHORTNAME@@ |
+^ Full name | @@FULLNAME@@ |
+^ Outlook address | FIXME |
+^ Email address | [[@@EMAIL@@]] |
+^ Owner | [[refdata:user:example:start]] |
+
+===== People =====
+
+People managing this mailbox:
+
+  * [[refdata:user:example:start]]
+
+===== References =====
+
+Items referencing this mailbox:
+
+{{backlinks>.}}

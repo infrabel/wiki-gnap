@@ -1,0 +1,8 @@
+====== Utilities ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides help and tools for daily work, not specific to error hanlding or symptom diagnosis...,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for anyone providing support.,,,,//</color>
+----
+
+FIXME

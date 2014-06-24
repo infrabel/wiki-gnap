@@ -1,0 +1,8 @@
+====== Technical Overview ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides all technical details about the application.,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for technical people who need to understand the working of the application in order to build extra functionality or fix problems.,,,,//</color> \\
+----
+
+FIXME

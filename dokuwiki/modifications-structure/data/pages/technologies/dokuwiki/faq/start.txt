@@ -1,0 +1,15 @@
+====== FAQ ======
+
+Certain common questions tend to recur, so you can find below a series of **DokuWiki** frequently asked questions and their answers:
+
+{{indexmenu>.#2|tsort nsort}}
+
+++++ Add New Question |
+<form>
+action template templates:general:title-ns: technologies:dokuwiki:faq:@@CATEGORY@@:@@QUESTION@@
+hidden "TITLE" "=@@QUESTION@@"
+textbox "Category"
+textbox "Question"
+submit "Add New Question"
+</form>
+++++

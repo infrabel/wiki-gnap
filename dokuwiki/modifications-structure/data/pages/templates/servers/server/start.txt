@@ -1,0 +1,18 @@
+====== @@SERVER@@ ======
+
+===== Information =====
+
+^ Type | [[refdata:server-type:example:start]] |
+^ Specifications | FIXME\\ Cores: ?\\ Memory: ? GB\\ Disk: ? GB\\ Availability: ? |
+^ Network | [[refdata:network:example:start]] |
+^ IP | FIXME |
+^ Intended Usage | [[refdata:client:example:start]] - [[refdata:server-setup:example:start]] - [[technologies:example:start]] - [[refdata:environment:example:start]] |
+^ OS Technology | [[technologies:example:start]] [[technologies:example:versions:example]] |
+^ Supported Technologies | [[technologies:example:start]] [[technologies:example:versions:example]]\\ ... |
+^ Linked Resources | FIXME |
+
+===== References =====
+
+Items referencing server **@@SERVER@@**:
+
+{{backlinks>.}}

@@ -1,0 +1,8 @@
+====== Functional Overview ======
+
+<color grey>
+//**,,,,what,,,,**,,,,: This section provides the functional analysis of the application.,,,,\\ 
+**,,,,audience,,,,**,,,,: It is intended for everyone who needs to know the exact functionality as agreed with the customer.,,,,//</color>
+----
+
+FIXME

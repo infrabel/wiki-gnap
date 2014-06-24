@@ -1,0 +1,20 @@
+====== Welcome ======
+
+Hello **@NAME@**, and welcome to the Athena information center (or **info** in short) which centralizes information and documentation. The goal is to facilitate smoother integration, interaction and follow-up between build, run and competence center teams. Thank you for your contributions and we hope you like the place and decide to stay.
+
+The sidebar provides an easy access to common sections:
+
+  * [[favorites|Favorites]] provides an overview of your starred pages.
+  * [[getting-started:start|Getting Started]] provides information for new employees.
+  * [[bu:start|Business Units]] showcases the different business units.
+  * [[cc:start|Competence Centers]] presents the different development and exploitation competence centers.
+  * [[applications:start|Applications]] gives an overview of all applications.
+  * [[technologies:start|Technologies]] is an entry point for information about different technologies.
+  * [[services:start|Services]] is a directory service where one can register and search for (web) services.
+  * [[servers:start|Servers]] gives an overview of all servers.
+  * [[databases:start|Databases]] provides all database information.
+  * [[mailboxes:start|Mailboxes]] lists interesting (functional) mailboxes.
+
+The following will get you started:
+  * [[technologies:dokuwiki:guidelines:formatting-syntax:start|Formatting Syntax]] describes the required syntax to use when editing pages.
+  * [[technologies:dokuwiki:playground:start|Playground]] lets you experiment to get to know the syntax.

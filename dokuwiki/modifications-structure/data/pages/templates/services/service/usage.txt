@@ -1,0 +1,5 @@
+====== Usage ======
+
+Items referencing service **@@SERVICE@@**:
+
+{{namespace>@NS@:versions&depth=2&nostart&exclude=@NS@:versions:example}}

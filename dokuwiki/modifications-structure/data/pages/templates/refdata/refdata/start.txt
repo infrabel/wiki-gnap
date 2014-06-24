@@ -1,0 +1,15 @@
+====== @@REFDATA@@ ======
+
+The following values are available as reference data for **@@REFDATA@@**:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Value |
+<form>
+action template templates:refdata:refdata-value: @NS@:@@REFDATAVALUE@@
+labels templates:labels
+hidden "REFDATA" "=@@REFDATA@@"
+textbox "REFDATAVALUE"
+submit "Add New Value"
+</form>
+++++

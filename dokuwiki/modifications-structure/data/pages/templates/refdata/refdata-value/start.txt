@@ -1,0 +1,5 @@
+====== @@REFDATAVALUE@@ ======
+
+Items with value **@@REFDATAVALUE@@** as reference data for **@@REFDATA@@**:
+
+{{backlinks>.}}

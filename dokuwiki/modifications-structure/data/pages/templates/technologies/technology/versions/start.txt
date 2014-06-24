@@ -1,0 +1,15 @@
+====== Versions ======
+
+The following **@@TECHNOLOGY@@** versions are used within our company:
+
+{{indexmenu>.#1|tsort nsort}}
+
+++++ Add New Version |
+<form>
+action template templates:general:backlink-page @NS@:@@VERSION@@
+hidden "TITLE" "=@@VERSION@@"
+hidden "TEXT" "=Items referencing **@@TECHNOLOGY@@** version **@@VERSION@@**:"
+textbox "Version"
+submit "Add New Version"
+</form>
+++++
