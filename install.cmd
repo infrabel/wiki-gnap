@@ -43,7 +43,7 @@ IF NOT "%INSTALLOP%"=="9" (
 	ECHO Invalid option!
 	ECHO.
 	GOTO AvailableOptions
-))))))))
+)))))))))
 
 REM ---------------------------------------------------------------------------
 :InstallCPlusPlus
