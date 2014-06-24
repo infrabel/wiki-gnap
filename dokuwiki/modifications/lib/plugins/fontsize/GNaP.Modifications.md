@@ -1,0 +1,1 @@
+syntax.php - Fontsize can be modified in increments of 5 instead of 20
