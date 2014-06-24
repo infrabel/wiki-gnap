@@ -1,0 +1,7 @@
+base   searchstats
+author Michael Schuh
+email  mike.schuh@gmx.at
+date   2011-06-29
+name   searchstats plugin
+desc   This plugin records the search words and displays stats in the admin section
+url    http://blog.imho.at/20100831/artikel/dokuwiki-plugin-searchstats
