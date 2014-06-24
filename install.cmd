@@ -12,6 +12,7 @@ ECHO  [5] DokuWiki
 ECHO  [6] Base GNaP.Tooling.Wiki theme
 ECHO  [7] GNaP.Tooling.Wiki example structure
 ECHO  [8] GNaP.Tooling.Wiki example content
+ECHO  [9] Setup NTFS permissions
 ECHO  [X] Exit
 ECHO.
 SET INSTALLOP=X
@@ -24,6 +25,8 @@ IF "%INSTALLOP%"=="4" ( GOTO InstallPHP )
 IF "%INSTALLOP%"=="5" ( GOTO InstallDokuWiki )
 IF "%INSTALLOP%"=="6" ( GOTO InstallTheme )
 IF "%INSTALLOP%"=="7" ( GOTO InstallStructure )
+
+IF "%INSTALLOP%"=="9" ( GOTO SetupPerms )
 
 IF /I "%INSTALLOP%"=="X" ( GOTO TheEnd )
 IF "%INSTALLOP%"=="" ( GOTO TheEnd )
@@ -175,5 +178,46 @@ PAUSE
 ECHO.
 GOTO AvailableOptions
 REM ---------------------------------------------------------------------------
+
+REM ---------------------------------------------------------------------------
+:SetupPerms
+SET PERMPATH=C:\Wiki
+SET /P PERMPATH="Install path [C:\Wiki]: "
+SET POOLACC=X
+SET /P POOLACC="Application pool identity user, format DOMAIN\User []: "
+
+ECHO.
+ECHO Granting NTFS permissions for "Authenticated Users"
+
+ICACLS %PERMPATH%\ /grant "Authenticated Users":^(OI^)^(CI^)^(R^)
+ECHO.
+ICACLS %PERMPATH%\data /grant "Authenticated Users":^(OI^)^(CI^)^(M^)
+ECHO.
+ICACLS %PERMPATH%\lib\plugins /grant "Authenticated Users":^(OI^)^(CI^)^(R^)
+ECHO.
+ICACLS %PERMPATH%\lib /grant "Authenticated Users":^(OI^)^(CI^)^(R^)
+
+IF NOT %POOLACC%==X (
+	ECHO.
+	ECHO Granting NTFS permissions for "%POOLACC%"
+	ICACLS %PERMPATH%\lib\plugins /grant "%POOLACC%":^(OI^)^(CI^)^(M^)
+	ECHO.
+	ICACLS %PERMPATH%\conf\local.php /grant "%POOLACC%":^(M^)
+	ECHO.
+	ICACLS %PERMPATH%\conf\users.auth.php /grant "%POOLACC%":^(M^)
+	ECHO.
+	ICACLS %PERMPATH%\conf\acl.auth.php /grant "%POOLACC%":^(M^)
+	ECHO.
+	ICACLS %PERMPATH%\conf\plugins.local.php /grant "%POOLACC%":^(M^)
+)
+
+ECHO.
+ECHO Granted permissions
+PAUSE
+
+ECHO.
+GOTO AvailableOptions
+REM ---------------------------------------------------------------------------
+
 
 :TheEnd
