@@ -39,6 +39,7 @@ IF NOT "%INSTALLOP%"=="5" (
 IF NOT "%INSTALLOP%"=="6" (
 IF NOT "%INSTALLOP%"=="7" (
 IF NOT "%INSTALLOP%"=="8" (
+IF NOT "%INSTALLOP%"=="9" (
 	ECHO Invalid option!
 	ECHO.
 	GOTO AvailableOptions
