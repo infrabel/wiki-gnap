@@ -1,0 +1,2 @@
+  * [[start||icon-home|Home|]]
+  * [[favorites||icon-heart|Favorites|]]
