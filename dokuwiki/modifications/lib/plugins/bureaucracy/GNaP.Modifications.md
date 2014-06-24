@@ -1,1 +1,1 @@
-actions/template.php automatically expands tree after creating a template tree
+actions/template.php - Automatically expands tree after creating a template tree
