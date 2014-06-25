@@ -23,7 +23,8 @@ Getting all of this to work together can be quite a bit of work, which is why we
  * Clone the repository.
  * Open a prompt and navigate to the directory you cloned to.
  * Run ```install.cmd``` to access the installation menu.
- * Depending on your needs, you can install all required prerequisites, as well as the bundled DokuWiki, our graphical modifications with plugins, our sample structure and some sample content.
+   * [Details on all available commands can be found in the documentation](https://github.com/infrabel/GNaP.Tooling.Wiki/wiki).
+ * Depending on your needs, you can install all required prerequisites, as well as DokuWiki, our graphical modifications, our plugin selection, our sample structure and some sample content.
  * [Read the documentation](https://github.com/infrabel/GNaP.Tooling.Wiki/wiki) to read more on how to configure your installation.
 
 
