@@ -1,16 +1,18 @@
 GNaP.Tooling.Wiki
 =========
 
-We utilise a wiki to combine all our documentation in a central place. We named this place Athena, after the Greek goddess of wisdom.
+We utilise a wiki to combine all our documentation in a central place. This place is called **Athena**, after the Greek goddess of wisdom.
 
-As a platform we used [DokuWiki](https://www.dokuwiki.org/dokuwiki), combined with a bunch of plugins to enable us to:
+As a platform we use [DokuWiki](https://www.dokuwiki.org/dokuwiki), combined with a bunch of plugins which enable us to:
 
   * Utilise templates to easily stub new pages
   * Have Single Sign-On with Active Directory
   * Mark pages as favorites
   * Easily create overview pages
+  * Export pages as PDF
+  * ...
 
-We also styled it using our [GNaP.Web.Themes](https://github.com/infrabel/GNaP.Web.Themes) project to make everything consistent.
+[GNaP.Web.Themes](https://github.com/infrabel/GNaP.Web.Themes) is used to style everything to make it consistent.
 
 All of this is hosted on an IIS webserver, running on Windows Server 2012 R2.
 
