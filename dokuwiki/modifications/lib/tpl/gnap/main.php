@@ -149,7 +149,8 @@ global $INFO;
 						</li>
 					
 						<li class="light-blue">
-							<?php if ($conf['useacl'] && $showTools && $conf['authtype'] == 'authplain') { ?>
+							<?php if (($conf['useacl'] && $showTools && $conf['authtype'] == 'authplain') || 
+									  ($conf['subscribers'] && !contains($conf['disableactions'], 'subscribe'))) { ?>
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 							<?php } else { ?>
 							<a>
@@ -186,15 +187,15 @@ global $INFO;
 								)); ?>
 								<?php endif ?>
 								
-								<?php if ($conf['subscribers'] && !contains($conf['disableactions'], 'subscribe')): ?>								
+								<?php if ($conf['subscribers'] && !contains($conf['disableactions'], 'subscribe')): ?>
 								<li><a href="/?do=listeabo" class="action recent" accesskey="s" rel="nofollow" title="View Subscriptions"><i class="icon-envelope icon-fixed-width"></i>View Subscriptions</a></li>
 								<?php endif ?>
 								
 								<li><a href="/favorites" class="action recent" accesskey="f" rel="nofollow" title="View Favorites"><i class="icon-heart icon-fixed-width"></i>View Favorites</a></li>
 								
 								<?php if (($conf['useacl'] && $showTools && $conf['authtype'] == 'authplain' && (!contains($conf['disableactions'], 'profile'))) ||
-										  ($conf['subscribers'] && !contains($conf['disableactions'], 'subscribe'))
-										 ): ?>								
+										  ($conf['useacl'] && $showTools && $conf['authtype'] == 'authplain' && $conf['subscribers'] && (!contains($conf['disableactions'], 'subscribe')))
+										 ): ?>
 								<li class="divider"></li>
 								<?php endif ?>
 								<?php } ?>
