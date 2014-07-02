@@ -95,7 +95,7 @@ div.dokuwiki form.bureaucracy__plugin label input {
 	float: none !important;
 }
 
-.bureaucracy__plugin  sup {
+.bureaucracy__plugin sup {
 	display: none;
 }
 
@@ -165,7 +165,7 @@ div.dokuwiki form.bureaucracy__plugin input.button {
 	width: 390px;
 }
 
-#config__manager th, td {
+#config__manager th, #config__manager td {
 	border: 0px solid #fff;
 }
 
@@ -194,4 +194,16 @@ div.dokuwiki form.bureaucracy__plugin input.button {
 
 #dw__login legend {
 	display: none;
+}
+
+.table thead>tr>th {
+	border-top: 1px solid #ddd !important;
+}
+
+.table thead tr th:first-child {
+	border-left-color: #ddd !important;
+}
+
+.table thead tr th:last-child {
+	border-right-color: #ddd !important;
 }
