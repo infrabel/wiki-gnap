@@ -1,6 +1,6 @@
 ====== Welcome ======
 
-Hello **@NAME@**, and welcome to the Athena information center (or **info** in short) which centralizes information and documentation. The goal is to facilitate smoother integration, interaction and follow-up between build, run and competence center teams. Thank you for your contributions and we hope you like the place and decide to stay.
+Hello **@NAME@**, and welcome to the Athena information center (or **info** in short) which centralizes information and documentation. Thank you for your contributions and we hope you like the place and decide to stay.
 
 The sidebar provides an easy access to common sections:
 
