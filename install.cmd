@@ -1,6 +1,6 @@
 @ECHO OFF
-ECHO Welcome to the GNaP.Tooling.Wiki installer
-ECHO ==========================================
+ECHO Welcome to the wiki-gnap installer
+ECHO ==================================
 
 :AvailableOptions
 ECHO Installable components provided by this installer:
@@ -9,9 +9,9 @@ ECHO  [2] IIS URL Rewrite Module 2.0
 ECHO  [3] FastCGI (requires elevated permissions, and Windows Server)
 ECHO  [4] PHP 5.5
 ECHO  [5] DokuWiki
-ECHO  [6] Base GNaP.Tooling.Wiki theme
-ECHO  [7] GNaP.Tooling.Wiki example structure
-ECHO  [8] GNaP.Tooling.Wiki example content
+ECHO  [6] Base wiki-gnap theme
+ECHO  [7] wiki-gnap example structure
+ECHO  [8] wiki-gnap example content
 ECHO  [9] Setup NTFS permissions
 ECHO  [X] Exit
 ECHO.
@@ -148,13 +148,13 @@ SET THEME=C:\Wiki
 SET /P THEME="Install path [C:\Wiki]: "
 
 ECHO.
-ECHO Installing base GNaP.Tooling.Wiki theme to %THEME%
+ECHO Installing base wiki-gnap theme to %THEME%
 
 XCOPY dokuwiki\modifications %THEME% /E
 DEL /S /Q %THEME%\data\cache\*
 
 ECHO.
-ECHO Installed base GNaP.Tooling.Wiki theme to %THEME%
+ECHO Installed base wiki-gnap theme to %THEME%
 PAUSE
 
 ECHO.
@@ -167,13 +167,13 @@ SET STRUCT=C:\Wiki
 SET /P STRUCT="Install path [C:\Wiki]: "
 
 ECHO.
-ECHO Installing GNaP.Tooling.Wiki example structure theme to %STRUCT%
+ECHO Installing wiki-gnap example structure theme to %STRUCT%
 
 XCOPY dokuwiki\modifications-structure %STRUCT% /E
 DEL /S /Q %STRUCT%\data\cache\*
 
 ECHO.
-ECHO Installed GNaP.Tooling.Wiki example structure to %STRUCT%
+ECHO Installed wiki-gnap example structure to %STRUCT%
 PAUSE
 
 ECHO.
