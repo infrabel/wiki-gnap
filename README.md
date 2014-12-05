@@ -27,7 +27,6 @@ Getting all of this to work together can be quite a bit of work, which is why we
  * Depending on your needs, you can install all required prerequisites, as well as DokuWiki, our graphical modifications, our plugin selection, our sample structure and some sample content.
  * [Read the documentation](https://github.com/infrabel/wiki-gnap/wiki) to read more on how to configure your installation.
 
-
 ## Copyright
 
 Copyright © 2014 Infrabel and contributors.
